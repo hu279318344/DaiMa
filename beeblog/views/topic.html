@@ -1,0 +1,48 @@
+{{template "header"}}
+<title>文章 - 我的beego博客</title>
+</head>
+
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            {{template "navbar" .}}
+        </div>
+    </div>
+    <br>
+    <br/>
+    <div class="container">
+        <br>
+        <h2>文章列表</h2>
+        <div class="pull-right">
+            <a href="/topic/add" class="btn btn-primary btn-lg active">添加文章</a>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>文章名称</th>
+                    <th>最后更新</th>
+                    <th>浏览</th>
+                    <th>回复数</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tbody>{{range.Topics}}</tbody>
+                <tr>
+                    <td>{{.Id}}</td>
+                    <td>{{.Title}}</td>
+                    <td>{{.Updated}}</td>
+                    <td>{{.Views}}</td>
+                    <td>{{.ReplyCount}}</td>
+                </tr>
+                {{end}}
+            </tbody>
+
+        </table>
+    </div>
+    <script type="text/javascript" src="http://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
