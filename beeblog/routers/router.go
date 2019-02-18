@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"vscode/beeblog/controllers"
+	"vscode/DaiMa/beeblog/controllers"
 
 	"github.com/astaxie/beego"
 )

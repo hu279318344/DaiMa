@@ -1,9 +1,9 @@
 package main
 
 import (
-	"vscode/beeblog/controllers"
-	"vscode/beeblog/models"
-	_ "vscode/beeblog/routers"
+	"vscode/DaiMa/beeblog/controllers"
+	"vscode/DaiMa/beeblog/models"
+	_ "vscode/DaiMa/beeblog/routers"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
