@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"vscode/beeblog/models"
+	"vscode/DaiMa/beeblog/models"
 
 	"github.com/astaxie/beego"
 )
