@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "C:\\Users\\yanghu\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
+    "go.inferGopath": false,
+    "go.useLanguageServer": true,
+    "window.zoomLevel": 0,
+    "go.autocompleteUnimportedPackages": true,
+    "go.gocodePackageLookupMode": "go",
+    "go.gotoSymbol.includeImports": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+}

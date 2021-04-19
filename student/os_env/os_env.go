@@ -1,10 +1,14 @@
 package main
 
-import "fmt"
-import "os"
+import (
+	"fmt"
+	"os"
+)
+
+var JAVAHOME string
 
 func main() {
-	var JAVAHOME string
+
 	JAVAHOME = os.Getenv("GOROOT")
-	fmt.Println(GOROOT)
+	fmt.Println(JAVAHOME)
 }
