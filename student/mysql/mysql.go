@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	_ "github.com/go-sql-driver/mysql"
+	 "github.com/go-sql-driver/mysql"
 )
 
 var db = &sql.DB{}

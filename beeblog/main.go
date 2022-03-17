@@ -1,10 +1,11 @@
 package main
 
 import (
-	"vscode/DaiMa/beeblog/controllers"
-	"vscode/DaiMa/beeblog/models"
-	_ "vscode/DaiMa/beeblog/routers"
-
+	"beeblog\controllers"
+	"beeblog\models"
+	"beeblog\routers"
+    
+	
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 )
